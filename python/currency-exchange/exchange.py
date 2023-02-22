@@ -20,4 +20,3 @@ def exchangeable_value(budget, exchange_rate, spread, denomination):
     exchanged = exchange_money(budget, rate)
     bills = get_number_of_bills(exchanged, denomination)
     return get_value_of_bills(denomination, bills)
-e
